@@ -105,7 +105,7 @@ services:
       - name: UPS
         logo: "assets/tools/apc.png"
         tag: "power"
-        subtitle: Remote Monitoring Portal - Schnider Electric
+        subtitle: Remote Monitoring Portal - Schneider Electric
         url: "https://smartconnect.apc.com/"
         target: '_blank'
 
