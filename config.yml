@@ -6,7 +6,7 @@ title: "Brickyard"
 subtitle: "Service Directory"
 logo: "assets/logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
-# footer: "Update this page at ..."
+footer: "Update this page on <a href=\"https://github.com/tpaulus/homer\">GitHub</a>."
 
 # Optional message
 message:
@@ -18,15 +18,11 @@ message:
     Not all services may be listed, as services are still being added.
 
 # Optional navbar
-links: [] # Allows for navbar (dark mode, layout, and search) without any links
-# links:
-#   - name: "ansible"
-#     icon: "fab fa-github"
-#     url: "https://github.com/bastienwirtz/homer"
-#     target: '_blank' # optionnal html a tag target attribute
-#   - name: "Wiki"
-#     icon: "fas fa-book"
-#     url: "https://www.wikipedia.org/"
+links:
+  - name: "Notion Workspace"
+    icon: "fas fa-book"
+    url: "https://www.notion.so/tompaulus"
+    target: '_blank'
 
 # Services
 # First level array represent a group.
@@ -41,8 +37,8 @@ services:
         url: "http://192.168.0.20:32400/web/index.html"
         target: '_blank'
 
-  - name: "Monitoring & Management"
-    icon: "fas fa-heartbeat"
+  - name: "Management"
+    icon: "fas fa-cogs"
     items:
       - name: Portainer
         logo: "assets/tools/portainer.png"
@@ -50,12 +46,10 @@ services:
         tag: "docker"
         url: "https://portainer.nuc.brickyard.whitestar.systems/"
         target: '_blank'
-      - name: NMS
-        logo: "assets/tools/LibreNSM-logo.png"
-        subtitle: "Network Health"
-        tag: "network"
-        url: "http://nms.brickyard.whitestar.systems/"
-        target: '_blank'
+
+  - name: "Monitoring"
+    icon: "fas fa-heartbeat"
+    items:
       - name: StatusCake
         logo: "assets/tools/status-cake.png"
         subtitle: "Uptime Monitoring"
@@ -105,7 +99,7 @@ services:
       - name: UPS
         logo: "assets/tools/apc.png"
         tag: "power"
-        subtitle: Remote Monitoring Portal - Schneider Electric
+        subtitle: Remote Monitoring Portal
         url: "https://smartconnect.apc.com/"
         target: '_blank'
 
@@ -128,7 +122,7 @@ services:
         url: "https://gallery.tompaulus.com/"
         target: '_blank'
 
-  - name: "Externaly Hosted"
+  - name: "External"
     icon: "fab fa-aws"
     items:
     - name: Tom's Homepage
