@@ -19,7 +19,7 @@ message:
 
 # Optional navbar
 links:
-  - name: "Notion Workspace"
+  - name: "Notion"
     icon: "fas fa-book"
     url: "https://www.notion.so/tompaulus"
     target: '_blank'
@@ -34,7 +34,7 @@ services:
       - name: "Plex"
         logo: "assets/tools/plex-pms-icon.png"
         subtitle: Movies, TV Shows, Live TV, DVR
-        url: "http://192.168.0.20:32400/web/index.html"
+        url: "http://192.168.2.28:32400/web/index.html"
         target: '_blank'
 
   - name: "Management"
@@ -46,6 +46,13 @@ services:
         tag: "docker"
         url: "https://portainer.nuc.brickyard.whitestar.systems/"
         target: '_blank'
+      - name: Woodland Park
+        logo: "assets/tools/unraid_logo.png"
+        subtitle: Network Attached Storage
+        tag: "storage"
+        url: "https://woodlandpark.brickyard.whitestar.systems/"
+        target: '_blank'
+
 
   - name: "Monitoring"
     icon: "fas fa-heartbeat"
@@ -84,12 +91,6 @@ services:
         tag: "network"
         url: "https://ubnt.brickyard.whitestar.systems/"
         target: '_blank'
-      - name: NAS
-        logo: "assets/tools/synology_logo.png"
-        subtitle: Network Attached Storage
-        tag: "storage"
-        url: "https://nas.brickyard.whitestar.systems/"
-        target: '_blank'
       - name: Pi Hole
         logo: "assets/tools/pi-hole.png"
         subtitle: Local DNS and Ad Blocking
@@ -110,6 +111,11 @@ services:
         logo: "assets/tools/home-assistant.png"
         subtitle: Home Automation
         url: "https://home.whitestar.systems/"
+        target: '_blank'
+      - name: N8N
+        logo: "assets/tools/n8n_logo.png"
+        subtitle: Service Automation
+        url: "http://n8n.brickyard.whitestar.systems/"
         target: '_blank'
       - name: Tom's Blog
         logo: "assets/tools/ghost.png"
