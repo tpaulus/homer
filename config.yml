@@ -34,7 +34,7 @@ services:
       - name: "Plex"
         logo: "assets/tools/plex-pms-icon.png"
         subtitle: Movies, TV Shows, Live TV, DVR
-        url: "http://192.168.2.28:32400/web/index.html"
+        url: "http://192.168.0.28:32400/web/index.html"
         target: '_blank'
 
   - name: "Management"
@@ -121,11 +121,6 @@ services:
         logo: "assets/tools/ghost.png"
         tag: ghost
         url: "https://blog.tompaulus.com/"
-        target: '_blank'
-      - name: Tom's Gallery
-        logo: "assets/tools/gallery.png"
-        tag: koken
-        url: "https://gallery.tompaulus.com/"
         target: '_blank'
 
   - name: "External"
